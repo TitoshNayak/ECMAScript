@@ -48,7 +48,7 @@ if (number > 0)
               console.log("the number is negative :"+num);
             }
 
-            */
+            
 
 
             let num = prompt("Enter a number");
@@ -65,3 +65,23 @@ if (number > 0)
             else {
                 console.log("the number is negative");
             }
+            */
+
+
+            //Nested loop
+
+            let number = prompt("Enter  a number");
+
+            if (number >0)
+              {
+                  if(number==0)
+                  {
+                      console.log("the number you entered is 0");
+                  }
+                  else{
+                      console.log("ethe number is positive");
+                  }
+              }
+              else{
+                  console.log("you have entered a negative number");
+              }
