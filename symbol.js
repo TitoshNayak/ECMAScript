@@ -141,3 +141,7 @@ Previous Tutorial:
 JS Numbers
 N
  */
+
+
+let Number= Symbol.for("hello");
+console.log(Number);
