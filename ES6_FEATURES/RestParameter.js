@@ -5,7 +5,8 @@ When the spread operator is used as a parameter, it is known as the rest paramet
 You can also accept multiple arguments in a function call
  using the rest parameter. For example,
  */
-
+/////////////
+/*
 let func = function(...args){
     console.log(args);
 }
@@ -25,3 +26,5 @@ hey(408,68,9);
 }
 const num1 = [1,3,4,5,];
 sum(...num1);
+
+*/
