@@ -28,3 +28,10 @@ const num1 = [1,3,4,5,];
 sum(...num1);
 
 */
+
+
+const map= function(...args){
+    console.log(args);
+}
+map(67);
+
