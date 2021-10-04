@@ -49,9 +49,7 @@ The destructuring assignment introduced in ES6 makes it easy to assign array val
     */
 
 
-    //From es6 
-/*
-    const Example = {
+       const Example = {
 
         name: 'sanu',
         age : 76,
@@ -64,20 +62,11 @@ console.log(name);
     console.log(age);
     console.log(gender);
 
-    */
 
-    /*
+    
 
-    const Company = {
+    
 
-        name: 'Navy',
-        age : 65,
-        gender : 'male'
-    }
 
-    let {name,age,gender }= Company;
 
-    console.log(name);
-    console.log(age);
-    console.log(gender);
-    */
+
