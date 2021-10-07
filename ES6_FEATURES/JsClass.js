@@ -140,6 +140,7 @@ JavaScript classes may include getters and setters. You use the get keyword for 
 For example,
 */
 /*
+
 class Person{
   constructor(name){
     this.name= name;
@@ -161,11 +162,43 @@ console.log(person1.name);
    // changing the vvalue of name property
 person1.PersonName='Ruth';
 console.log(person1.name);
+
 */
+
+                   //getter and setter
+
+
+     class Person{
+       constructor(name){
+         this.name='name'
+       }
+
+      get PersonName(){
+       return this.name;
+      }
+     
+   
+
+      set PersonName(x){
+        this.name=x;
+      }
+
+     }
+     
+let person1 = new Person('James nao');
+console.log(person1.name);
+   // changing the vvalue of name property
+person1.PersonName='Ruth';
+console.log(person1.name);
+
+    
+
+
+
        /////Note: JavaScript class is a special type of function. And the typeof operator returns function for a class.
 
        //example
 
-       class Person {}
-         console.log(typeof Person);
-       
+       //class Person {}
+        // console.log(typeof Person);
+
