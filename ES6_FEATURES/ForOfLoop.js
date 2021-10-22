@@ -108,7 +108,7 @@ for (const i of iterableObj) {
                             //User Defined Iterators
 //You can create an iterator manually and use the for...of loop to iterate through the iterators.
  //For example,
-
+/*
  //generator function
  function* generatorFunc(){
      yield 10;
@@ -123,3 +123,32 @@ for (const i of iterableObj) {
     for(let value of obj){
         console.log(value);
     }
+
+    */
+
+  ///try
+/*
+  let students=[1,3,5,7,8];
+
+  for(let i of students){     //array number
+      console.log(i);
+  }
+
+  */
+   
+       //set try
+
+       const set = new Set([1,3,6]);
+
+       for(let i of set){
+           console.log(i);
+       }
+
+       const map = new Map();
+
+       map.set('name', 'john');
+       map.set('age' , '66');
+
+       for(let [key, value] of map){
+           console.log(key + '=' + value);
+       }
