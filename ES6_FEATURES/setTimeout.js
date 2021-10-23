@@ -103,10 +103,33 @@ For example,
  */
 
 // program to display a name
-
+/*
 function greet(name, lastName){
     console.log('Hello' + '' + name + '' + lastName);
 }
 
 
 setTimeout(greet, 1000,'John',  'Nayak');
+
+*/
+/*
+function showTime(){
+    let dateTime = new Date();
+
+    let time = dateTime.toLocaleString();
+
+    console.log(time);
+
+    setTimeout(showTime, 3000);
+}
+
+showTime();
+*/
+
+
+function greet(){
+    console.log('hello world');
+}
+
+let intervalId = setTimeout(greet, 3000);
+console.log('Id=' + intervalId);
